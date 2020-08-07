@@ -1,6 +1,7 @@
 import React from 'react';
 import ActionCard from './ActionCard';
 import Speakers from './Speakers'
+import actionCards from '../js/action-cards'
 
 export default function Details() {
   return (
@@ -25,8 +26,10 @@ export default function Details() {
                 </ul>
             </div>
             <div className="details-card-container">
-                <ActionCard />
-                <ActionCard />
+                {actionCards.map((card, index) => {
+                    return <ActionCard actionDetails={ card } key={ index }/>
+                })
+                }
             </div>
         </div>
         <Speakers />
