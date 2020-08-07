@@ -4,11 +4,33 @@
   padding: 0;
 }
 
+a {
+  color: #c56c76;
+}
+
 body {
   background: #F5F3F0;
   color: #5C626A;
   font-size: 16px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+button {
+  background-color: #c56c76;
+  font-size: 1.2em;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+li {
+  margin: 0 0 4px 0;
+}
+
+/* Temp styles */
+ul {
+  margin: 0px 10px;
+  padding: 20px;
 }
 
 .details-card {
@@ -49,17 +71,25 @@ body {
   border: 1px solid rgba(105, 99, 99, 0.244);
   margin-bottom: 20px;
   padding: 15px;
+  height: auto;
 }
+.info-card button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.info-card .speaker-details-col {
 
+}
 .main-content {
   margin: 0 auto;
   padding: 0 24px;
   max-width: 62em;
 }
 
-/*  */
 .speakers-container {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -67,6 +97,7 @@ body {
   float: left;
   max-width: 33%;
   border-radius: 7px;
+  margin: 5px;
 }
 .speaker-details-col {
   margin: 5px;
@@ -80,14 +111,11 @@ body {
 }
 
 .speaker-name {
+  padding-top: 5px;
   font-size: 1.2em;
   font-weight: bolder;
 }
 .speaker-title {
+  padding: 5px;
   font-size: 1.2em;
-}
-/* Temp styles */
-ul {
-  margin: 0px 10px;
-  padding: 20px;
 }

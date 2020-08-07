@@ -8,7 +8,6 @@ export default function Card() {
         <button className="button">
             Join Our Email List
         </button>
-
     </div>
   );
 }
