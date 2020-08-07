@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #F5F3F0;
+  color: #5C626A;
+  font-size: 16px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details-card {
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+.details-card-container {
+  flex: 0 1 33%;
+}
+.details-header {
+  
+}
+.details-talks {
+  flex: 0 1 66%;
+}
+.header {
+  background-color: #5d5c6a;
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #F5F3F0;
+  text-align: center;
+  max-height: 130px;
+  padding: 1.8em 24px 1.6em;
+}
+
+.header-location {
+  padding: 10px;
+}
+.header-logo img {
+  max-width: 30em;
+}
+
+.info-card {
+  background-color: #ffffff;
+  color: #797166;
+  border: 1px solid rgba(105, 99, 99, 0.244);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.main-content {
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 62em;
+}
+
+/*  */
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.speakers-container img {
+  float: left;
+  max-width: 33%;
+  border-radius: 7px;
+}
+.speaker-details-col {
+  margin: 5px;
+  flex: 1 1 30%;
+}
+.speaker-desc {
+  padding: 5px;
+  /* desc below image */
+  clear: both;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.speaker-name {
+  font-size: 1.2em;
+  font-weight: bolder;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.speaker-title {
+  font-size: 1.2em;
+}
+/* Temp styles */
+ul {
+  margin: 0px 10px;
+  padding: 20px;
 }
