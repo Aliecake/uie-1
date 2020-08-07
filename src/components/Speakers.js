@@ -2,9 +2,9 @@ import React from 'react'
 import ActionCard from './ActionCard'
 import SpeakerCard from './SpeakerCard'
 import speakers from '../js/speakers'
+import actionCards from '../js/action-cards'
 
 export default function Speakers() {
-
     return (
         <>
             <h2>
@@ -15,7 +15,7 @@ export default function Speakers() {
                 {speakers.map((speaker, index) => {
                    return <SpeakerCard speaker={ speaker } />
                 })}
-                <ActionCard className="speaker-details-col"/>
+                <ActionCard actionDetails={actionCards[actionCards.length - 1]}/>
             </div>
         </>
     )
