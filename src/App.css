@@ -15,8 +15,14 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  padding: 10px 0;
+}
+
 li {
-  margin: 0 0 4px 0;
+  margin: 0 0 1.3em 0;
 }
 
 /* Temp styles */
@@ -79,19 +85,17 @@ ul {
   background-color: #ffffff;
   color: #797166;
   border: 1px solid rgba(105, 99, 99, 0.244);
-  margin-bottom: 20px;
   padding: 15px;
   height: auto;
 }
+
 .info-card .button {
   display: block;
   margin: 0 auto;
   margin-top: 10px;
   text-align: center;
 }
-.info-card .speaker-details-col {
 
-}
 .main-content {
   margin: 0 auto;
   padding: 0 24px;
