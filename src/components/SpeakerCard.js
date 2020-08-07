@@ -9,9 +9,9 @@ export default function SpeakerCard(props) {
                 <div className="speaker-name">
                     { props.speaker.name }
                 </div>
-                <div className="speaker-title">
+                <a href={props.speaker.link} className="speaker-title">
                     { props.speaker.title }
-                </div>
+                </a>
             </div>
             <div className="speaker-details-col speaker-desc">
                 { props.speaker.description }
