@@ -8,7 +8,7 @@ function Header() {
                 <h3>April, 2020</h3>
             </div>
             <div className="header-logo">
-                <img src={Ux1m15} className="UX Immersion Mobile Conference April 2020" alt="logo" />
+                <img src={Ux1m15} className="logo" alt="UX Immersion Mobile Conference April 2020" />
             </div>
             
         </div>
