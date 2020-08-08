@@ -57,13 +57,36 @@ ul {
   flex: 0 1 66%;
 }
 .footer {
+  width: 100%;
   background-color: #51525A;
   color: #fafafa;
   bottom: 0;
   margin: 0 auto;
-  padding: 20px;
+  display: block;
+
+}
+.footer-2-col {
+  justify-content: center;
   display: flex;
-  max-width: 90%;
+  margin: 0 auto;
+
+}
+.footer-contact-card {
+  max-width: 30%;
+  padding: 20px 10px;
+}
+
+.footer-copyright-card {
+  max-width: 30%;
+  padding: 20px 10px;
+}
+.footer-image-card .footer-img {
+  clear: both;
+  display: block;
+}
+.footer-img {
+  margin: 0 auto;
+  max-width: 20%;
 }
 .header {
   background-color: #5d5c6a;
